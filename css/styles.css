@@ -17,12 +17,13 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #4d5ae5;
+  color: #2e2f42;
   text-transform: uppercase;
 }
 
-.logo-studio {
-  color: #2e2f42;
+.logo > span,
+.footer-logo > span {
+  color: #4d5ae5;
 }
 
 .header-navigation {
@@ -31,6 +32,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.header-navigation:hover,
+.header-navigation:focus {
+  color: #404bbf;
 }
 
 .adress-style {
@@ -118,7 +124,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 .section-three-text {
   font-size: 16px;
@@ -166,10 +172,10 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.web {
+.footer {
   background-color: #2e2f42;
 }
-.footer-studio {
+.footer-logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
