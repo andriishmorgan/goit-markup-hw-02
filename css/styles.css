@@ -1,0 +1,134 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Top line*/
+
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2e2f42;
+}
+
+.header-navigation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-navigation-address {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-navigation:focus,
+.header-navigation:hover {
+  color: #404bbf;
+}
+
+.header-navigation-address:focus,
+.header-navigation-address:hover {
+  color: #404bbf;
+}
+
+/* Main big content */
+
+.hero-image {
+  background-color: #2e2f42;
+}
+.big-text {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button:focus,
+.button:hover {
+  background-color: #404bbf;
+}
+
+/*Category 4*/
+.section-one {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-one-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*Our team*/
+.section-two-text {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+}
+.section-two {
+  background-color: #f4f4fd;
+}
+/*Portfolio*/
+.section-three {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
+}
+/*Footer*/
+.footer-text {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.web {
+  background-color: #2e2f42;
+}
+.footer-studio {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
