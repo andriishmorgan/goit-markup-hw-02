@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -8,7 +8,7 @@ ul {
   list-style: none;
 }
 
-/*Top line*/
+/*Studio, Portfolio, Contacts, E-mail, Phone*/
 
 .logo {
   font-family: Raleway, sans-serif;
@@ -18,7 +18,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #4d5ae5;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 .logo-studio {
@@ -33,13 +33,17 @@ ul {
   color: #2e2f42;
 }
 
+.adress-style {
+  font-style: normal;
+}
+
 .header-navigation-address {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal 
+  font-style: normal;
 }
 
 .header-navigation:focus,
@@ -47,12 +51,7 @@ ul {
   color: #404bbf;
 }
 
-.header-navigation-address:focus,
-.header-navigation-address:hover {
-  color: #404bbf;
-}
-
-/* Main big content */
+/* Section one */
 
 .hero-image {
   background-color: #2e2f42;
@@ -63,7 +62,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center
+  text-align: center;
 }
 
 .button {
@@ -80,39 +79,54 @@ ul {
   background-color: #404bbf;
 }
 
-/*Category 4*/
-.section-one {
+/*Section two*/
+
+.section-two {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-one-text {
+.section-two-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*Our team*/
-.section-two-text {
+/*Section three*/
+
+.section-three-maintext {
   font-size: 36px;
   font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-three {
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   background-color: #f4f4fd;
 }
-.section-two {
-  background-color: #f4f4fd;
+.section-three-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-/*Portfolio*/
 
-.section-three-color {
-  background-color: #F4F4FD 
-}
-.section-three {
+/*Section four*/
+
+.section-four {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -122,20 +136,23 @@ ul {
   text-align: center;
   text-transform: capitalize;
 }
-  .section-three-maintext {
-    background-color: #FFFFFF;
-    font-weight: 500;
-    line-height: 1.2;
-    etter-spacing: 0.02em;
-  }
-.section-three-text {
+.section-four-maintext {
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+}
+.section-four-text {
   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*Footer*/
+
 .footer-text {
   color: #f4f4fd;
   background-color: #2e2f42;
