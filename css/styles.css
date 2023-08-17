@@ -17,13 +17,12 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
 }
 
-.logo > span,
-.footer-logo > span {
-  color: #4d5ae5;
+.logo > .logo-span {
+  color: #2e2f42;
 }
 
 .header-navigation {
@@ -175,12 +174,7 @@ ul {
 .footer {
   background-color: #2e2f42;
 }
-.footer-logo {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+
+.footer > .logo > .logo-span {
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
 }
