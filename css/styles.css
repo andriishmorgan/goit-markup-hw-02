@@ -51,8 +51,8 @@ ul {
   font-style: normal;
 }
 
-.header-navigation:focus,
-.header-navigation:hover {
+.header-navigation-address:focus,
+.header-navigation-address:hover {
   color: #404bbf;
 }
 
